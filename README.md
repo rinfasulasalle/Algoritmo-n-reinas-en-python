@@ -63,6 +63,41 @@ En la función `main`, se realiza el flujo principal del programa. Primero, se i
 
 Luego, se define el tamaño del tablero `n` como 500. Se crea una lista bidimensional `matrix_solucion` de tamaño `n x n` inicializada con el carácter `'*'`. Esta lista se utiliza para representar visualmente el tablero con las reinas.
 
+# Ejecucion 
+Para poder ejecutar el código, debemos seguir los siguientes pasos según el sistema operativo:
+
+### Windows:
+1. Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde el sitio web oficial de Python (https://www.python.org) y seguir las instrucciones de instalación.
+
+2. Guarda el código en un archivo con extensión `.py`, por ejemplo, `nreinas.py`.
+
+3. Abre la línea de comandos (Command Prompt) en tu sistema Windows.
+
+4. Navega hasta la ubicación donde hayas guardado el archivo `nreinas.py` usando el comando `cd <ruta>`.
+
+5. Ejecuta el código Python usando el siguiente comando:
+   ```
+   python nreinas.py
+   ```
+
+### Linux:
+1. Asegúrate de tener Python instalado en tu sistema. La mayoría de las distribuciones de Linux ya incluyen Python de forma predeterminada.
+
+2. Guarda el código en un archivo con extensión `.py`, por ejemplo, `nreinas.py`.
+
+3. Abre una terminal en tu sistema Linux.
+
+4. Navega hasta la ubicación donde hayas guardado el archivo `nreinas.py` usando el comando `cd <ruta>`.
+
+5. Ejecuta el código Python usando el siguiente comando:
+   ```
+   python3 nreinas.py
+   ```
+
+Al ejecutar el código, verás la solución encontrada para el problema de las N reinas en el tablero. Además, se imprimirá una representación visual del tablero con las reinas marcadas como "👑". Al final, se mostrará el tiempo total de ejecución en segundos.
+
+Recuerda que debes tener instalado Python en tu sistema y configurar correctamente las variables de entorno para poder ejecutarlo desde cualquier ubicación en la línea de comandos.
+
 A continuación, se llama a la función `nReinasVegas` con `n` como argumento para obtener la solución al problema de las N reinas.
 
 Después, se recorre la lista de posiciones `solucionNQ` y se marca las celdas correspondientes en `matrix_solucion` con el símbolo `'👑'`.
