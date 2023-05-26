@@ -63,6 +63,19 @@ En la función `main`, se realiza el flujo principal del programa. Primero, se i
 
 Luego, se define el tamaño del tablero `n` como 500. Se crea una lista bidimensional `matrix_solucion` de tamaño `n x n` inicializada con el carácter `'*'`. Esta lista se utiliza para representar visualmente el tablero con las reinas.
 
+
+A continuación, se llama a la función `nReinasVegas` con `n` como argumento para obtener la solución al problema de las N reinas.
+
+Después, se recorre la lista de posiciones `solucionNQ` y se marca las celdas correspondientes en `matrix_solucion` con el símbolo `'👑'`.
+
+Luego, se imprime la lista `solucionNQ`, que contiene las posiciones de las reinas.
+
+A continuación, se imprime visualmente el tablero utilizando la lista `matrix_solucion`, mostrando las reinas como `'👑'` y las celdas vacías como `'*'`.
+
+Finalmente, se calcula el tiempo total de ejecución restando el tiempo actual (`time()`) menos `start`, y se imprime en segundos.
+
+
+
 # Ejecucion 
 Para poder ejecutar el código, debemos seguir los siguientes pasos según el sistema operativo:
 
@@ -97,13 +110,3 @@ Para poder ejecutar el código, debemos seguir los siguientes pasos según el si
 Al ejecutar el código, verás la solución encontrada para el problema de las N reinas en el tablero. Además, se imprimirá una representación visual del tablero con las reinas marcadas como "👑". Al final, se mostrará el tiempo total de ejecución en segundos.
 
 Recuerda que debes tener instalado Python en tu sistema y configurar correctamente las variables de entorno para poder ejecutarlo desde cualquier ubicación en la línea de comandos.
-
-A continuación, se llama a la función `nReinasVegas` con `n` como argumento para obtener la solución al problema de las N reinas.
-
-Después, se recorre la lista de posiciones `solucionNQ` y se marca las celdas correspondientes en `matrix_solucion` con el símbolo `'👑'`.
-
-Luego, se imprime la lista `solucionNQ`, que contiene las posiciones de las reinas.
-
-A continuación, se imprime visualmente el tablero utilizando la lista `matrix_solucion`, mostrando las reinas como `'👑'` y las celdas vacías como `'*'`.
-
-Finalmente, se calcula el tiempo total de ejecución restando el tiempo actual (`time()`) menos `start`, y se imprime en segundos.
